@@ -33,7 +33,7 @@ public class selenium {
 		driver.switchTo().defaultContent();
 		driver.switchTo().frame("external-page");
 		
-		
+		////cambios cambioss
 		//ingresar a "mis asignaciones"
 		driver.findElement(By.xpath(("/html/body/app-root/app-admin-layout/div/div/div[1]/div/div/div/app-menu/ul/li[2]/a"))).click();
 		
